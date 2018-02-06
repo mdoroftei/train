@@ -17,8 +17,6 @@ public class Train {
         return cartHelper.print(myTrain);
 	}
 
-
-
 	public void detachEnd(){
 		myTrain.remove(myTrain.size()-1);
 	}
