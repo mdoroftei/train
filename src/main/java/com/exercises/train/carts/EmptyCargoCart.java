@@ -8,6 +8,6 @@ import com.exercises.train.enums.CartType;
 public class EmptyCargoCart extends CargoCart {
     @Override
     public String print() {
-        return CartType.CARGO.getLongValue();
+        return CartType.EMPTY_CARGO.getLongValue();
     }
 }

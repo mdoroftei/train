@@ -8,6 +8,6 @@ import com.exercises.train.enums.CartType;
 public class Restaurant implements Cart {
     @Override
     public String print() {
-        return CartType.RESTAURANT.toValue();
+        return CartType.RESTAURANT.getLongValue();
     }
 }

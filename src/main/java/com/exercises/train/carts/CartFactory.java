@@ -22,7 +22,7 @@ public class CartFactory {
     private static Cart cartFactory(CartType cartType) {
         switch (cartType) {
             case HEAD:
-                return new HeadHead();
+                return new Head();
             case PASSENGER:
                 return new Passenger();
             case RESTAURANT:

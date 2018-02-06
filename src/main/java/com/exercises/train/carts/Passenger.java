@@ -7,6 +7,6 @@ import com.exercises.train.enums.CartType;
  */
 public class Passenger implements Cart {
     public String print() {
-        return CartType.PASSENGER.toValue();
+        return CartType.PASSENGER.getLongValue();
     }
 }
